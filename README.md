@@ -14,8 +14,8 @@ A list of skills and technologies for beginners
     - [ ] How to clone an existing project/ How to create a new project
     - [ ] How to add new or/and changed files and create a commit
     - [ ] How to write a proper message to commit
-    - [ ] How to create a branche, how to switch between branches
-    - [ ] How to upodate a branch from remote repository 
+    - [ ] How to create a branch, how to switch between branches
+    - [ ] How to update a branch from remote repository 
     - [ ] How to merge changes from one branch to another
     - [ ] How to publish you changes in remote repository
     - [ ] How to create a Pull request (understood the main purpose of pull requests)
