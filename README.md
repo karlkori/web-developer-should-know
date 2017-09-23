@@ -73,6 +73,7 @@ A list of skills and technologies for beginners
   - [ ] Javascript
   
     Materials:
+    - [ ] [Cheatsheat](https://github.com/mbeaudru/modern-js-cheatsheet) - to quickly refresh knowledge
     - [ ] [Basics](https://developer.mozilla.org/uk/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
     - [ ] [Tutorial from Mozilla](https://developer.mozilla.org/uk/docs/Web/JavaScript)
     
