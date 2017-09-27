@@ -32,6 +32,7 @@ A list of skills and technologies for beginners
     
     Materials:
     - [ ] https://developer.mozilla.org/uk/docs/Web/HTML
+    - [ ] [How browsers render page](https://habrahabr.ru/post/338840)
     - [ ] [Can I Use](https://caniuse.com)
     - [ ] UI frameworks
       - [ ] [Twitter Bootstrap](http://getbootstrap.com)
