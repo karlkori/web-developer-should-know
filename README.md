@@ -106,6 +106,6 @@ A list of skills and technologies for beginners
 - Backend
   - Auth
   
-  Materials:
-    - [ ] [Json Web Tokens](https://jwt.io/)
-    - [ ] [Safe password resets with JWT](https://www.smashingmagazine.com/2017/11/safe-password-resets-with-json-web-tokens/)
+    Materials:
+      - [ ] [Json Web Tokens](https://jwt.io/)
+      - [ ] [Safe password resets with JWT](https://www.smashingmagazine.com/2017/11/safe-password-resets-with-json-web-tokens/)
