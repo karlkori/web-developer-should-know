@@ -103,3 +103,9 @@ A list of skills and technologies for beginners
     - [ ] debugging code (debugger, console.log,...)
     - [ ] inspecting DOM elements
     - [ ] testing a layout on different screens (responsive design)
+- Backend
+  - Auth
+  
+  Materials:
+    - [ ] [Json Web Tokens](https://jwt.io/)
+    - [ ] [Safe password resets with JWT](https://www.smashingmagazine.com/2017/11/safe-password-resets-with-json-web-tokens/)
