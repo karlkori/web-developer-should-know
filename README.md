@@ -104,12 +104,27 @@ A list of skills and technologies for beginners
     - [ ] debugging code (debugger, console.log,...)
     - [ ] inspecting DOM elements
     - [ ] testing a layout on different screens (responsive design)
+    
 - Backend
+  - NodeJS
+    
+    Materials:
+      - [ ] [nodejs.dev](https://nodejs.dev/)
+      - [ ] [Typescript](https://basarat.gitbooks.io/typescript/content/)
+      - [ ] [NVM](https://github.com/creationix/nvm)
+      
+    Expected result:
+    - [ ] ES6+ basics
+    - [ ] nvm, npm, package.json, package-lock.json - how to install and use
+    - [ ] event loop, async/await, promises, try catch
+    - [ ] understanding why we need to use static types
+      
   - Auth
   
     Materials:
       - [ ] [Json Web Tokens](https://jwt.io/)
       - [ ] [Safe password resets with JWT](https://www.smashingmagazine.com/2017/11/safe-password-resets-with-json-web-tokens/)
+      
   - Microsevices
   
     Materials:
