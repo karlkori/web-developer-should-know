@@ -125,6 +125,11 @@ A list of skills and technologies for beginners
       - [ ] [Json Web Tokens](https://jwt.io/)
       - [ ] [Safe password resets with JWT](https://www.smashingmagazine.com/2017/11/safe-password-resets-with-json-web-tokens/)
       
+  - Databases
+    
+    Materials:
+      - [ ] [SQL from A to Z](https://dev.to/helenanders26/sql-series-from-a-to-z-2pk9)
+      
   - Microsevices
   
     Materials:
