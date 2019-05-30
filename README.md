@@ -1,6 +1,8 @@
 # Web developer should know
 A list of skills and technologies
 
+:baby: junior :construction_worker: middle :tomato: senior
+
 - General
   - Git
     
@@ -18,38 +20,62 @@ A list of skills and technologies
     - [ ] :baby: How to create a branch, how to switch between branches
     - [ ] :baby: How to update a branch from remote repository 
     - [ ] :baby: How to merge changes from one branch to another
-    - [ ] :baby: How to publish you changes in remote repository
+    - [ ] :baby: How to publish your changes to a remote repository
     - [ ] :baby: How to create a Pull request (understood the idea behind the pull request)
+    - [ ] :baby: Know tools to see a diff, and resolve possible merge conflicts
+    - [ ] :baby: stash, cherry-pick
 
   - Network
   
     Materials
     - [ ] [HTTP tutorial from Mozilla](https://developer.mozilla.org/uk/docs/Web/HTTP)
+    - [ ] [HTTP headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
     - [ ] [OSI model](https://www.geeksforgeeks.org/layers-osi-model/)
     
     Expected result:
     - [ ] :baby: HTTP vs HTTPS
-    - [ ] :baby: Sockets / Web Sockets
+    - [ ] :baby: CDN (content delivery networks) - why it can be useful
+    - [ ] :baby: Know how to use ssh, dig, ping, curl, wget (no need to now all available parameters but know how these tools can help)
     - [ ] :construction_worker: HTTP/2 - what is new, and what problems it tries to solve
-    - [ ] :construction_worker: awareness about OSI model
-    - [ ] :construction_worker: how DNS works, A, CNAME, MX...
+    - [ ] :construction_worker: Awareness about OSI model
+    - [ ] :construction_worker: How DNS works, A, CNAME, MX...
+    - [ ] :construction_worker: Know how to use different HTTP headers (caching, auth, content type, ...)
+
+
+
+  - Security
+
+    Expected result:
+    - [ ] :baby: CORS, Why is it necessary?
+    - [ ] :baby: XSS, CSRF
+    - [ ] :baby: How to send a sensitive data securily via network
+    - [ ] :baby: Know in general how authentication (session, token based) works
+    - [ ] :construction_worker: Know in details how authentication, authorization works (session, tokens, JWT, OAuth...)
+
+
+  - Delivery
     
+    Expected result:
+    - [ ] :construction_worker: Docker usage (choose a proper base image, add required libs, soft, configs, code; build, run, attach to it, see logs...)
+    - [ ] :construction_worker: scp, rsync
+  
 - Frontend
   - HTML5
     
     Materials:
-    - [ ] https://developer.mozilla.org/uk/docs/Web/HTML
+    - [ ] [Mozilla HTML](https://developer.mozilla.org/uk/docs/Web/HTML)
     - [ ] [How browsers render page](https://habrahabr.ru/post/338840)
     - [ ] [Can I Use](https://caniuse.com)
     - [ ] UI frameworks
       - [ ] [Twitter Bootstrap](http://getbootstrap.com)
       - [ ] [Google Material](http://materializecss.com)
-      - [ ] whatever is popular now
+      - [ ] Whatever is popular now
     
     Expected result:
     - [ ] :baby: Be able to build a layout from picture (PSD, sketch) - the result must be "Pixel Perfect" - using correct fonts, sizes, colors, margins, paddings
     - [ ] :baby: How to build and use Forms (radio, checkboxes, inputs, especialy file uploading)
     - [ ] :baby: Trying different UI frameworks
+    - [ ] :baby: Know why to make a semantic markup (SEO just simple understandig)
     
   - CSS3
   
@@ -65,15 +91,14 @@ A list of skills and technologies
     
     Expected result:
     - [ ] :baby: How to include CSS into HTML
-    - [ ] :baby: CSS selectors
+    - [ ] :baby: CSS selectors, pseudoselectors
     - [ ] :baby: How to use Media queries and why (responsive design)
     - [ ] :baby: Mobile first
-    - [ ] :baby: Pseudoselectors
     - [ ] :baby: CSS animation
     - [ ] :baby: Webfonts
     - [ ] :baby: Flexbox / Grid
     - [ ] :baby: Crossbrowser validation
-    - [ ] :baby: try to use any CSS pre/post processors and why it might be useful
+    - [ ] :baby: Try to use any CSS pre/post processors and why they might be useful
 
     
   - [ ] Javascript
@@ -83,18 +108,30 @@ A list of skills and technologies
     - [ ] [JavaScript. Ядро](http://dmitrysoshnikov.com/ecmascript/javascript-the-core-2nd-edition-rus/)
     - [ ] [Basics](https://developer.mozilla.org/uk/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
     - [ ] [Tutorial from Mozilla](https://developer.mozilla.org/uk/docs/Web/JavaScript)
+    - [ ] [Web API](https://developer.mozilla.org/en-US/docs/Web/API)
     
     Expected result:
     - [ ] :baby: How to include a javascript code into your HTML page
-    - [ ] :baby: data types; const, let, var
-    - [ ] :baby: JSON
-    - [ ] :baby: syntax: conditions, iterations, functions, classes
-    - [ ] :baby: variable scope, hoisting, IFEE, modules
-    - [ ] :baby: sync and async code (callbacks, promises, async/await)
-    - [ ] :baby: "this" and closures
-    - [ ] :baby: manipulating DOM elements: create, update, remove, move
-    - [ ] :baby: handling DOM events: click, hover, onKey...
-    - [ ] :baby: XMLHttpRequest, fetch
+    - [ ] :baby: Data types; const, let, var
+    - [ ] :baby: Syntax: conditions, iterations, functions, classes...
+    - [ ] :baby: Variable scope, hoisting, IIFE, modules, "this", closures
+    - [ ] :baby: Sync and async code execution (callbacks, promises, async/await)
+    - [ ] :baby: JSON, XML
+    - [ ] :baby: Cookie
+    - [ ] :baby: Web API: 
+      - [ ] :baby: Manipulating DOM elements: create, update, remove, move
+      - [ ] :baby: Handling DOM events: click, hover, onKey...
+      - [ ] :baby: Local and sesion storage, what is a difference
+      - [ ] :baby: XMLHttpRequest, fetch
+    - [ ] :construction_worker: Web API in more details: 
+      - [ ] :construction_worker: geolocation
+      - [ ] :construction_worker: media (camera access)
+      - [ ] :construction_worker: canvas
+      - [ ] :construction_worker: web workers
+      - [ ] :construction_worker: service workers
+      - [ ] :construction_worker: web sockets
+    - [ ] :baby: Work with one popular js framework: angular, react, vue...
+    - [ ] :construction_worker: Be able to build an app from scratch by using some popular js framework
     
   - [ ] Chrome dev tools
     
@@ -105,6 +142,7 @@ A list of skills and technologies
     - [ ] :baby: debugging code (debugger, console.log,...)
     - [ ] :baby: inspecting DOM elements
     - [ ] :baby: testing a layout on different screens (responsive design)
+    - [ ] :construction_worker: debug application performance (memory usage/leaks, cpu  intensive operations)
     
 - Backend
   - NodeJS
@@ -118,7 +156,7 @@ A list of skills and technologies
     - [ ] ES6+ basics
     - [ ] nvm, npm, package.json, package-lock.json - how to install and use
     - [ ] event loop, async/await, promises, try catch
-    - [ ] understanding why we need to use static types
+    - [ ] understanding why static typing is useful
       
   - Auth
   
@@ -130,6 +168,13 @@ A list of skills and technologies
     
     Materials:
       - [ ] [SQL from A to Z](https://dev.to/helenanders26/sql-series-from-a-to-z-2pk9)
+      
+    Expected result:
+    - [ ] SQL vs noSQL
+    - [ ] ACID
+    - [ ] SQL common commands (select, insert, delete, transaction, bulk load, dump, restore)
+    - [ ] Be able to build a database schema for a project (correct data types, indexes, foreign keys, data normalization)
+    - [ ] Redis, memcache
       
   - Microsevices
   
