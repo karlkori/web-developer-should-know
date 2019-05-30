@@ -1,5 +1,5 @@
 # Web developer should know
-A list of skills and technologies for beginners
+A list of skills and technologies
 
 - General
   - Git
@@ -10,23 +10,30 @@ A list of skills and technologies for beginners
     - [ ] [GuitHub Flow](https://guides.github.com/introduction/flow)
     
     Expected result:
-    - [ ] Understood how Git (or other Version control system) helps in development
-    - [ ] How to clone an existing project/ How to create a new project
-    - [ ] How to add new or/and changed files and create a commit
-    - [ ] How to write a proper message to commit
-    - [ ] How to create a branch, how to switch between branches
-    - [ ] How to update a branch from remote repository 
-    - [ ] How to merge changes from one branch to another
-    - [ ] How to publish you changes in remote repository
-    - [ ] How to create a Pull request (understood the main purpose of pull requests)
-    - [ ] Understood the main steps of Github flow
+    - [ ] :baby: Have an own github account
+    - [ ] :baby: Understood how Git (or other Version control system) helps in development
+    - [ ] :baby: How to clone an existing project/ How to create a new project
+    - [ ] :baby: How to add new or/and changed files and create a commit
+    - [ ] :baby: How to write a proper message to commit
+    - [ ] :baby: How to create a branch, how to switch between branches
+    - [ ] :baby: How to update a branch from remote repository 
+    - [ ] :baby: How to merge changes from one branch to another
+    - [ ] :baby: How to publish you changes in remote repository
+    - [ ] :baby: How to create a Pull request (understood the idea behind the pull request)
+
   - Network
   
     Materials
     - [ ] [HTTP tutorial from Mozilla](https://developer.mozilla.org/uk/docs/Web/HTTP)
-  - Self organization:
-    - [ ] https://trello.com/
-    - [ ] https://jira.atlassian.com
+    - [ ] [OSI model](https://www.geeksforgeeks.org/layers-osi-model/)
+    
+    Expected result:
+    - [ ] :baby: HTTP vs HTTPS
+    - [ ] :baby: Sockets / Web Sockets
+    - [ ] :construction_worker: HTTP/2 - what is new, and what problems it tries to solve
+    - [ ] :construction_worker: awareness about OSI model
+    - [ ] :construction_worker: how DNS works, A, CNAME, MX...
+    
 - Frontend
   - HTML5
     
@@ -37,14 +44,12 @@ A list of skills and technologies for beginners
     - [ ] UI frameworks
       - [ ] [Twitter Bootstrap](http://getbootstrap.com)
       - [ ] [Google Material](http://materializecss.com)
+      - [ ] whatever is popular now
     
     Expected result:
-    - [ ] Be able to build a layout from picture (PSD, sketch) - the result must be "Pixel Perfect" - using correct fonts, sizes, colors, margins, paddings
-    - [ ] How to build and use Forms
-      - [ ] radio buttons
-      - [ ] checkboxes
-      - [ ] inputs (file, text, ...)
-    - [ ] Using different UI frameworks
+    - [ ] :baby: Be able to build a layout from picture (PSD, sketch) - the result must be "Pixel Perfect" - using correct fonts, sizes, colors, margins, paddings
+    - [ ] :baby: How to build and use Forms (radio, checkboxes, inputs, especialy file uploading)
+    - [ ] :baby: Trying different UI frameworks
     
   - CSS3
   
@@ -59,17 +64,17 @@ A list of skills and technologies for beginners
     - [ ] [CSS Tricks - useful articles](https://css-tricks.com)
     
     Expected result:
-    - [ ] How to use a CSS with HTML
-    - [ ] How to select DOM elements in CSS and apply a style
-    - [ ] How to use Media queries and why (responsive design)
-    - [ ] Mobile first
-    - [ ] Pseudoselectors
-    - [ ] CSS animation
-    - [ ] Webfonts
-    - [ ] Flexbox
-    - [ ] Crossbrowser validation
-    - [ ] How to use pre-,post CSS processors (choose one)
-    - [ ] How pre-,post CSS processors helps in development
+    - [ ] :baby: How to include CSS into HTML
+    - [ ] :baby: CSS selectors
+    - [ ] :baby: How to use Media queries and why (responsive design)
+    - [ ] :baby: Mobile first
+    - [ ] :baby: Pseudoselectors
+    - [ ] :baby: CSS animation
+    - [ ] :baby: Webfonts
+    - [ ] :baby: Flexbox / Grid
+    - [ ] :baby: Crossbrowser validation
+    - [ ] :baby: try to use any CSS pre/post processors and why it might be useful
+
     
   - [ ] Javascript
   
@@ -80,30 +85,26 @@ A list of skills and technologies for beginners
     - [ ] [Tutorial from Mozilla](https://developer.mozilla.org/uk/docs/Web/JavaScript)
     
     Expected result:
-    - [ ] How to include a javascript code into your HTML page
-    - [ ] variables and types: numbers, strings, arrays, objects
-    - [ ] JSON
-    - [ ] conditions: if else, ?:, switch case
-    - [ ] iterations: for, for in, for of, while
-    - [ ] functions
-    - [ ] operations: add, subtruct, divide, multiplication
-    - [ ] variable scope, hoisting, IFEE, modules
-    - [ ] sync and async code
-    - [ ] callbacks, promises
-    - [ ] "this" and closures
-    - [ ] jquery
-      - [ ] manipulating with DOM elements: create, update, remove, move
-      - [ ] handling DOM events: click, hover, onKey...
-      - [ ] makeing requests to external resources
+    - [ ] :baby: How to include a javascript code into your HTML page
+    - [ ] :baby: data types; const, let, var
+    - [ ] :baby: JSON
+    - [ ] :baby: syntax: conditions, iterations, functions, classes
+    - [ ] :baby: variable scope, hoisting, IFEE, modules
+    - [ ] :baby: sync and async code (callbacks, promises, async/await)
+    - [ ] :baby: "this" and closures
+    - [ ] :baby: manipulating DOM elements: create, update, remove, move
+    - [ ] :baby: handling DOM events: click, hover, onKey...
+    - [ ] :baby: XMLHttpRequest, fetch
+    
   - [ ] Chrome dev tools
     
     Materials:
     - [ ] http://devtoolstips.com
    
     Expected result:
-    - [ ] debugging code (debugger, console.log,...)
-    - [ ] inspecting DOM elements
-    - [ ] testing a layout on different screens (responsive design)
+    - [ ] :baby: debugging code (debugger, console.log,...)
+    - [ ] :baby: inspecting DOM elements
+    - [ ] :baby: testing a layout on different screens (responsive design)
     
 - Backend
   - NodeJS
