@@ -1,7 +1,10 @@
 # Web developer should know
 A list of skills and technologies
 
-:baby: junior :construction_worker: middle :tomato: senior
+|--|--|
+| :baby: junior  | has a little commercial web development experience  |
+| :construction_worker:  middle | can implement typical* projects without external supervision; can decompose a typical project and provide a detailed estimate to complete the project  |
+| :tomato: senior | is able to decompose any type of complex project into feasible tasks, has experience in different domains |
 
 - General
   - Git
@@ -53,12 +56,52 @@ A list of skills and technologies
     - [ ] :construction_worker: Know in details how authentication, authorization works (session, tokens, JWT, OAuth...)
 
 
-  - Delivery
+  - Extra
     
     Expected result:
     - [ ] :construction_worker: Docker usage (choose a proper base image, add required libs, soft, configs, code; build, run, attach to it, see logs...)
     - [ ] :construction_worker: scp, rsync
+
+- Backend
+  - Auth
   
+    Materials:
+      - [ ] [Json Web Tokens](https://jwt.io/)
+      - [ ] [Safe password resets with JWT](https://www.smashingmagazine.com/2017/11/safe-password-resets-with-json-web-tokens/)
+      
+  - Databases
+    
+    Materials:
+      - [ ] [SQL from A to Z](https://dev.to/helenanders26/sql-series-from-a-to-z-2pk9)
+      
+    Expected result:
+    - [ ] SQL vs noSQL
+    - [ ] ACID
+    - [ ] SQL common commands (select, insert, delete, transaction, bulk load, dump, restore)
+    - [ ] Be able to build a database schema for a project (correct data types, indexes, foreign keys, data normalization)
+    - [ ] Redis, memcache
+      
+  - Microsevices
+  
+    Materials:
+      - [ ] [12 factors](https://12factor.net/)
+
+  - Specific to programming language
+  
+    - NodeJS
+
+      Materials:
+        - [ ] [nodejs.dev](https://nodejs.dev/)
+        - [ ] [Typescript](https://basarat.gitbooks.io/typescript/content/)
+        - [ ] [NVM](https://github.com/creationix/nvm)
+
+      Expected result:
+      - [ ] ES6+ basics
+      - [ ] nvm, npm, package.json, package-lock.json - how to install and use
+      - [ ] event loop, async/await, promises, try catch
+      - [ ] understanding why static typing is useful
+      
+
 - Frontend
   - HTML5
     
@@ -144,39 +187,3 @@ A list of skills and technologies
     - [ ] :baby: testing a layout on different screens (responsive design)
     - [ ] :construction_worker: debug application performance (memory usage/leaks, cpu  intensive operations)
     
-- Backend
-  - NodeJS
-    
-    Materials:
-      - [ ] [nodejs.dev](https://nodejs.dev/)
-      - [ ] [Typescript](https://basarat.gitbooks.io/typescript/content/)
-      - [ ] [NVM](https://github.com/creationix/nvm)
-      
-    Expected result:
-    - [ ] ES6+ basics
-    - [ ] nvm, npm, package.json, package-lock.json - how to install and use
-    - [ ] event loop, async/await, promises, try catch
-    - [ ] understanding why static typing is useful
-      
-  - Auth
-  
-    Materials:
-      - [ ] [Json Web Tokens](https://jwt.io/)
-      - [ ] [Safe password resets with JWT](https://www.smashingmagazine.com/2017/11/safe-password-resets-with-json-web-tokens/)
-      
-  - Databases
-    
-    Materials:
-      - [ ] [SQL from A to Z](https://dev.to/helenanders26/sql-series-from-a-to-z-2pk9)
-      
-    Expected result:
-    - [ ] SQL vs noSQL
-    - [ ] ACID
-    - [ ] SQL common commands (select, insert, delete, transaction, bulk load, dump, restore)
-    - [ ] Be able to build a database schema for a project (correct data types, indexes, foreign keys, data normalization)
-    - [ ] Redis, memcache
-      
-  - Microsevices
-  
-    Materials:
-      - [ ] [12 factors](https://12factor.net/)
