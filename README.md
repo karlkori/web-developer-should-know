@@ -1,12 +1,33 @@
 # Web developer should know
 A list of skills and technologies
 
-|--|--|
+| level  | description |
+|:--:|--|
 | :baby: junior  | has a little commercial web development experience  |
 | :construction_worker:  middle | can implement typical* projects without external supervision; can decompose a typical project and provide a detailed estimate to complete the project  |
 | :tomato: senior | is able to decompose any type of complex project into feasible tasks, has experience in different domains |
 
+
 - General
+
+  - CS?
+    
+    Materials:
+    
+    Expected result:
+    - [ ] Big O (time & space); why do we need this notation?; how to use? be able to to determine big O of operations of main data structures
+    - [ ] Data structures: linked list, stack, queue, tree, graph, hash table (know pros and cons, be able to choose most suitable one to solve a given problem)
+    - [ ] Know how base data structures is implemented in your language of choice
+    - [ ] Know about algorithms on base data structures (is not required to remember in details, but undertand pros & cons)
+    - [ ] Know and avoid N+1 problem
+    - [ ] Recursion (stack overflow)
+    
+  - Testing
+    
+    Material:
+    
+    Expected result:
+    
   - Git
     
     Materials:
@@ -45,7 +66,6 @@ A list of skills and technologies
     - [ ] :construction_worker: Know how to use different HTTP headers (caching, auth, content type, ...)
 
 
-
   - Security
 
     Expected result:
@@ -60,31 +80,33 @@ A list of skills and technologies
     
     Expected result:
     - [ ] :construction_worker: Docker usage (choose a proper base image, add required libs, soft, configs, code; build, run, attach to it, see logs...)
-    - [ ] :construction_worker: scp, rsync
+    - [ ] :construction_worker: scp, rsync, sftp
 
 - Backend
   - Auth
   
     Materials:
-      - [ ] [Json Web Tokens](https://jwt.io/)
-      - [ ] [Safe password resets with JWT](https://www.smashingmagazine.com/2017/11/safe-password-resets-with-json-web-tokens/)
+      - [ ] :baby: [Json Web Tokens](https://jwt.io/)
+      - [ ] :baby: [Safe password resets with JWT](https://www.smashingmagazine.com/2017/11/safe-password-resets-with-json-web-tokens/)
       
   - Databases
     
     Materials:
-      - [ ] [SQL from A to Z](https://dev.to/helenanders26/sql-series-from-a-to-z-2pk9)
+    - [ ] [SQL from A to Z](https://dev.to/helenanders26/sql-series-from-a-to-z-2pk9)
       
     Expected result:
-    - [ ] SQL vs noSQL
-    - [ ] ACID
-    - [ ] SQL common commands (select, insert, delete, transaction, bulk load, dump, restore)
-    - [ ] Be able to build a database schema for a project (correct data types, indexes, foreign keys, data normalization)
-    - [ ] Redis, memcache
+    - [ ] :baby: SQL vs noSQL
+    - [ ] :baby: SQL common commands (select, insert, delete, transaction, bulk load, dump, restore)
+    - [ ] :construction_worker: Be able to understand the output of EXPLAIN command
+    - [ ] :construction_worker: ACID
+    - [ ] :construction_worker: OLTP vs OLAP
+    - [ ] :construction_worker: Be able to build a database schema for a project (correct data types, indexes, foreign keys, data normalization)
+    - [ ] :construction_worker: key-value databases: Redis, memcache; what they are applicable for?
       
   - Microsevices
   
     Materials:
-      - [ ] [12 factors](https://12factor.net/)
+      - [ ] :construction_worker: [12 factors](https://12factor.net/)
 
   - Specific to programming language
   
