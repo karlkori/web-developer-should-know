@@ -4,8 +4,8 @@ A list of skills and technologies
 | level  | description |
 |:--:|--|
 | :baby: junior  | has a little commercial web development experience  |
-| :construction_worker:  middle | can implement typical* projects without external supervision; can decompose a typical project and provide a detailed estimate to complete the project  |
-| :tomato: senior | is able to decompose any type of complex project into feasible tasks, has experience in different domains |
+| :construction_worker:  middle | can implement typical* projects without external supervision; can decompose a typical project and provide a detailed estimate to complete it  |
+| :tomato: senior | is able to decompose any type of complex project into feasible tasks, has experience in different domains; can organize development, integration and delivery flows in a team |
 
 
 - General
