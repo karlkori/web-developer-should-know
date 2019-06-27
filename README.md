@@ -116,6 +116,7 @@ A list of skills and technologies
         - [ ] [nodejs.dev](https://nodejs.dev/)
         - [ ] [Typescript](https://basarat.gitbooks.io/typescript/content/)
         - [ ] [NVM](https://github.com/creationix/nvm)
+        - [ ] [Event Loop](https://blog.insiderattack.net/event-loop-and-the-big-picture-nodejs-event-loop-part-1-1cb67a182810)
 
       Expected result:
       - [ ] ES6+ basics
